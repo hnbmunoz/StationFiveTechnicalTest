@@ -20,3 +20,5 @@ sets up node_modules for the front end React Application
 npm run dev or yarn dev 
 concurrently runs both the front end and back end front end on localhost:5000 and back end on localhost: 3000
 
+Link for preview of application
+https://www.loom.com/share/b808b642c56046e2a3d2dedbf1e1e28d
