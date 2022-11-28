@@ -1,0 +1,25 @@
+.radio-groupings {
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: red;
+  padding: 0.5rem;
+}
+
+.radio-grouping-header {
+  font-family: 'PT Serif', serif;
+  color: #1f1f1f;
+  font-size: 1.25rem;
+  border-bottom: 0.06rem solid #1f1f1f;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  left: -2rem;
+}
+
+.radio-grouping-details {
+  font-family: 'PT Sans', serif;
+  color: #1f1f1f;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}

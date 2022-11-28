@@ -1,0 +1,42 @@
+.custom-radio2 {
+  label{
+    text-shadow: 0px 0px 1px 1px rgba(0,0,0,.1);
+  }
+
+  input[type="radio"]{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+  }
+
+  input[type="radio"]:after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transition: all .3s;
+  }
+
+  .type_1{
+    border: 2px solid #153BF1;
+  }
+
+  .type_1:after{
+    border: 5px solid #000146;;
+    transform: translate3d(50%, 50%, 0);
+  }
+
+  .type_1:checked:after{
+    transform: translate3d(-50%, -50%, 0);
+    // border: 2px solid red;
+  }
+
+}
