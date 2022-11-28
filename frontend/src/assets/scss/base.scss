@@ -1,0 +1,69 @@
+@forward 'globals';
+@forward './components/RadioButton';
+@forward './components/Modal/';
+@forward './components/PanelSlider/';
+@forward './components/Button/';
+
+@forward './pages/menu';
+@forward './pages/message';
+
+body {
+  background-color: #eee;
+  margin: 0;
+}
+
+.App {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.flex-column {
+  display:flex;
+  flex-direction: column;
+}
+
+.force-remove {
+  min-width: 0 !important;
+  font-size: 0 !important;
+  opacity: 0 !important;
+}
+
+.disabled-text {
+  color: #555 !important;
+}
+
+.disabled {
+  color: #555 !important;
+  background-color: #878787 !important ;
+}
+
+.disabled-button {
+  background-color: #878787 !important ;
+  color: #555555 !important;
+  cursor: text !important;
+  border: none !important;
+  filter: drop-shadow(2px 4px 6px black) !important;
+}
+
+.disabled-button:hover {
+  background-color: #878787 !important ;
+  cursor: text !important;
+  transform: scale(1) !important; 
+  border: none !important;
+  color: #555555 !important;
+  filter: drop-shadow(2px 4px 6px black) !important;
+  box-shadow: none !important;
+}
+
+.disabled-button:active {
+  background-color: #878787 !important ;
+  cursor: text !important;
+  transform: scale(1) !important; 
+  border: none !important;
+  color: #555555 !important;
+  filter: drop-shadow(2px 4px 6px black) !important;
+  box-shadow: none !important;
+}
